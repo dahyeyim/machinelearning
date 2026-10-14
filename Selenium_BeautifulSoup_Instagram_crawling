@@ -13,12 +13,12 @@ time.sleep(2)
 
 
 #아이디 패스워드 입력 
-email = 'remdahye@gmail.com' 
+email = 'yours@email.com' 
 input_id = driver.find_elements_by_css_selector('input._2hvTZ.pexuQ.zyHYP')[0]
 input_id.clear()
 input_id.send_keys(email)
 
-password = 'daddong2@' 
+password = 'yourpassword' 
 input_pw = driver.find_elements_by_css_selector('input._2hvTZ.pexuQ.zyHYP')[1]
 input_pw.clear()
 input_pw.send_keys(password)
